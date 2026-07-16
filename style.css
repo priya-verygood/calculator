@@ -39,12 +39,14 @@ body {
 }
 
 .buttons {
+    font-size:20;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
 }
 
 button {
+    font-size:20px;
     padding: 15px;
     height: 50;
     width: 50;
@@ -59,6 +61,7 @@ button:hover {
 }
 
 button.clear {
+    font-size:20px;
     background-color: #ff9800;
     color: black;
 }
